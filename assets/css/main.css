@@ -1,13 +1,12 @@
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
+  --default-color: #222222; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #555555; /* Color for headings, subheadings and title throughout the website */
   /* --accent-color: #3fbbc0; */
   --accent-color: #2a5e21;
@@ -54,6 +53,528 @@
 :root {
   scroll-behavior: smooth;
 }
+/* Roboto starts */
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Roboto/Inter18pt-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter18pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Roboto/Inter18pt-Italic.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter18pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Roboto/Inter18pt-LightItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter18pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../fonts/Roboto/Inter24pt-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter24pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../fonts/Roboto/Inter24pt-Light.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter24pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Roboto/Inter18pt-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter18pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../fonts/Roboto/Inter24pt-Black.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter24pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../fonts/Roboto/Inter24pt-Italic.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter24pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../fonts/Roboto/Inter24pt-LightItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter24pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../fonts/Roboto/Inter24pt-Thin.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter24pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../fonts/Roboto/Inter24pt-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter24pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../fonts/Roboto/Inter24pt-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter24pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../fonts/Roboto/Inter24pt-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter24pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-Black.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Roboto/Inter18pt-Light.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter18pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Roboto/Inter18pt-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter18pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Roboto/Inter18pt-Black.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter18pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Roboto/Inter18pt-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter18pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Roboto/Inter18pt-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter18pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Roboto/Inter18pt-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter18pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../fonts/Roboto/Inter24pt-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter24pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../fonts/Roboto/Inter24pt-SemiBold.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter24pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Roboto/Inter18pt-Thin.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter18pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../fonts/Roboto/Inter24pt-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter24pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Roboto/Inter18pt-SemiBold.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter18pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-Light.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-LightItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-Italic.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-SemiBold.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-Thin.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Roboto/Inter28pt-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Inter28pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+/* Roboto ends */
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-Bold.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-Black.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-Medium.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-Italic.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-Light.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-LightItalic.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-SemiBold.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-Regular.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-Thin.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
 
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
@@ -299,8 +820,8 @@ h6 {
     color: var(--nav-color);
     padding: 18px 15px;
     font-size: 13px;
-    font-family: var(--nav-font);
-    font-weight: 500;
+    font-family: var(--heading-font);
+    font-weight: 600;
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -419,7 +940,7 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-dropdown-color);
     padding: 10px 20px;
-    font-family: var(--nav-font);
+    font-family: var(--heading-font);
     font-size: 17px;
     font-weight: 500;
     display: flex;
@@ -537,7 +1058,7 @@ h6 {
 
 .footer .footer-about .logo span {
   color: var(--heading-color);
-  font-family: var(--heading-font);
+  /* font-family: var(--heading-font); */
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -545,7 +1066,7 @@ h6 {
 
 .footer .footer-about p {
   font-size: 14px;
-  font-family: var(--heading-font);
+  /* font-family: var(--heading-font); */
 }
 
 .footer .social-links a {
@@ -1151,7 +1672,7 @@ section,
 }
 
 .features .features-image img {
-  position: absolute;
+  /* position: absolute; */
   inset: 0;
   display: block;
   width: 100%;
@@ -1356,7 +1877,7 @@ section,
 
 .tabs .nav-link {
   border: 0;
-  padding: 12px 15px 12px 0;
+  padding: 12px 15px 12px 5px;
   transition: 0.3s;
   color: var(--default-color);
   border-radius: 0;
@@ -1367,12 +1888,13 @@ section,
 
 .tabs .nav-link:hover {
   color: var(--accent-color);
+  background-color: #d4ebd0 !important;
 }
 
 .tabs .nav-link.active {
   color: var(--accent-color);
   border-color: var(--accent-color);
-  background-color: var(--background-color);
+  background-color: #d4ebd0 !important;
 }
 
 .tabs .tab-pane.active {
@@ -1459,7 +1981,21 @@ section,
   top: 10px;
   transform: scale(-1, -1);
 }
-
+.carousel-caption {
+    top: 60%;
+    transform: translateY(-50%);
+    z-index: 1030 !important;
+    left: 8%;
+  }
+  .carousel-caption h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white !important;
+    margin-bottom: 8px;
+  }
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 15px 0 15px;
@@ -1660,7 +2196,7 @@ section,
 }
 
 .pricing .pricing-item ul li {
-  padding-bottom: 16px;
+  padding-bottom: 9px;
 }
 
 .pricing .pricing-item ul i {
@@ -1832,9 +2368,10 @@ section,
 }
 
 .contact .info-item p {
-  padding: 0;
-  margin-bottom: 0;
-  font-size: 14px;
+      padding: 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    text-align: center;
 }
 
 .contact .php-email-form {
